@@ -15,7 +15,7 @@ function moverAPI()
         self.controls[i] = controller
         return self
     end
-    --sets the constant to multiply the value going into the rotationSpeedController by for an index i
+    --sets the constant to multiply the value going into the rotationSpeedController by for an index i used to take gear ratios into account
     self.setK = function(i,K)
         self.coeffs[i] = K
         return self
